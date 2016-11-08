@@ -11,7 +11,7 @@ Enter new UNIX password:
 Confirm new UNIX password:
 password updated!
 root@owned~# usermod -s /bin/false mysql
-root@owned~# passwd mqsql
+root@owned~# exit
 lol@owned~$ exit
 exit
 me@secure~$ ssh mysql@db -C whatever
