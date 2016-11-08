@@ -14,7 +14,7 @@ root@owned~# usermod -s /bin/false mysql
 root@owned~# exit
 lol@owned~$ exit
 exit
-me@secure~$ ssh mysql@db -C whatever
+me@secure~$ ssh mysql@owned -C whatever
 mysql@owned3ploxify.onion's password: 
 Could not chdir to home directory /nonexistent: No such file or directory
 Password:lol
