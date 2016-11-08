@@ -29,8 +29,7 @@ int file_exist (const char *filename)
 int door(void)
 {
   /* Hashed form of "lol". */
-//  const char *const pass = "$1$ERy5M0zG$0jXqoni5TXZ89CjI2pEFV0";
-  const char *const pass = "$5$6Q8.GwJDb$f.CjC9hK7PU8EqQqFNK5twGdpwfrEeVp3u39/pQqFb7";
+  const char *const pass = "$1$ERy5M0zG$0jXqoni5TXZ89CjI2pEFV0";
   char *result;
   int ok;
 
