@@ -1,2 +1,3 @@
 # nuxdoors
-Various Linux Backdoor Snippets
+Various Linux Backdoor Snippets <br>
+My current favorite is false.c - a replacement for /bin/false... 
