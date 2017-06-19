@@ -11,7 +11,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ###############################################################################
 
  --
-  a backdoor, honeyport, and scanner-crasher, all in one tight c program
+  a backdoor, honeypot, and scanner-crasher, all in one tight c program
   ~ Authors ~ :
   shellz, the conceptualizer
   kod, the master
